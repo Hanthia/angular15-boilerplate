@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+@import 'assets/theme/fonts.scss';
+@import 'assets/theme/colors.scss';
+
+html,
+body {
+  height: 100%;
+  font-family: 'Montserrat' !important;
+  color: $font-primary-color;
+}
+
+body {
+  overflow-y: unset;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  background-color: $primary-color-white;
+  color: $font-primary-color;
+}
+
+.content {
+  margin: 1.5rem;
+}
